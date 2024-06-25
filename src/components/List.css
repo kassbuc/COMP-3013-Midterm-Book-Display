@@ -1,0 +1,31 @@
+
+.book-list img {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    margin: 10px;
+}
+
+.book-list div {
+    text-align: left;
+    display: flex;
+    border-top: 1px solid rgb(121, 114, 114);
+    padding: 5px;
+}
+
+.book-list {
+    background-color: rgb(59, 66, 66);
+    color: white;
+    padding: 20px;
+    width: 90%;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+.book-list div:hover {
+    background-color: rgb(84, 91, 91);
+}
+
+.selected {
+    background-color: rgb(84, 91, 91);
+}

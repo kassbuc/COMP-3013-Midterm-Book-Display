@@ -1,0 +1,36 @@
+
+.book-viewer img{
+    width: 300px;
+}
+
+.book-viewer {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+h3, h2, h4 {
+    margin: 20px;
+    display: block;
+}
+
+.book-info {
+    display: block;
+    text-align: left;
+}
+
+.star1::after {
+    content: '⭐'
+}
+.star2::after {
+    content: '⭐⭐'
+}
+.star3::after {
+    content: '⭐⭐⭐'
+}
+.star4::after {
+    content: '⭐⭐⭐⭐'
+}
+.star5::after {
+    content: '⭐⭐⭐⭐⭐'
+}
